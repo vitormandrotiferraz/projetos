@@ -34,7 +34,7 @@ body {
 header {
     font-family: var(--fonte-destaque);
     background-image: linear-gradient(to bottom, var(--verde2), var(--verde3), var(--verde4));
-    height: 150px;
+    min-height: 150px;
 }
 
 header h1 {

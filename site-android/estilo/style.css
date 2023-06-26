@@ -50,7 +50,7 @@ header p {
     color: var(--corletra);
     text-align: center;
     padding: 5px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 /*NAVEGAÇÃO*/
 nav {
@@ -90,7 +90,7 @@ main {
 }
 /*SUBTÍTULOS*/
 h2 {
-    font: normal 1.8em var(--fonte-titulo);
+    font: normal 1.6em var(--fonte-titulo);
     padding: 20px;
     text-align: center;
     color: var(--verde4);

@@ -73,13 +73,13 @@ nav > a:hover {
     border-top-left-radius: 5px;
 }
 
-/* nav > a:visited {
+nav > a:visited {
     color: rgba(250, 235, 215, 0.649);
-} */
+}
 /*PRINCIPAL*/
 main {
     background-color: white;
-    min-width: 300px;
+    min-width: 250px;
     max-width: 800px;
     margin: auto;
     margin-bottom: 10px;
@@ -106,13 +106,14 @@ h2 {
 }
 /*IMAGEM*/
 main img {
-    width: 95%;
     display: block;
+    width: 90%;
     margin: 10px auto;
 }
 
 .pequena {
-    width: 350px;
+    width: 250px;
+    margin: 10px auto;
 }
 /*PARÁGRAFOS*/
 main p {

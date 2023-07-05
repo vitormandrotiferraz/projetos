@@ -1,18 +1,74 @@
 @charset "UTF-8";
 
-/* @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
-/*@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
 * {
     margin: 0px;
+    padding: 0px;
 }
 
+:root {
+    --fonte-destaque: 'Courgette', cursive;
+    --fonte-padrao: 'Kalam', cursive;
+}
+
+html, body {
+    height: 100vh;
+    background-color: darkgray;
+}
+/*CABEÇALHO*/
 header {
     background-color: #dda783;
-    height: 150px;
+    text-align: center;
 }
 
-h1 {
+header > h1 {
     color: rgba(255, 255, 255, 0.933);
+    font: normal 9vw var(--fonte-destaque);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.478);
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+header > p {
+    color: #5f4955;
+    font: normal 1em var(--fonte-destaque);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.478);
+    padding-bottom: 50px;
+}
+
+header a {
+    font-weight: bold;
+    color: #5f4955;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.478);
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+/*SECTIONS*/
+section {
+ padding-top: 10vh;
+ padding-bottom: 10vh;
+}
+
+section p {
+    font: bold 3.5vw var(--fonte-padrao);
+    padding-bottom: 20px;
+}
+
+section.normal {
+    background-color: white;
+}
+
+section.imagem {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.751);
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.097);
 }

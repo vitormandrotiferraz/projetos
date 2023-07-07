@@ -51,7 +51,7 @@ section {
 }
 
 section p {
-    font: normal 4vw var(--fonte-destaque);
+    font: normal 3em var(--fonte-destaque);
     padding-bottom: 2em;
     line-height: 2em;
 }
@@ -86,7 +86,7 @@ section#img02 {
 }
 /*RODAPÉ*/
 footer {
-    font: normal 1em Arial, Helvetica, Verdana, sans-serif;
+    font: normal 0.9em Arial, Helvetica, Verdana, sans-serif;
     text-align: center;
     background-color: #dda783;
     padding: 5px;

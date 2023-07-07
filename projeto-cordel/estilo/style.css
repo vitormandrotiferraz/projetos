@@ -51,7 +51,7 @@ section {
 }
 
 section p {
-    font: normal 3em var(--fonte-destaque);
+    font: normal 2em var(--fonte-destaque);
     padding-bottom: 2em;
     line-height: 2em;
 }

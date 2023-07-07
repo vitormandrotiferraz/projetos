@@ -2,8 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
-
 * {
     margin: 0px;
     padding: 0px;
@@ -11,23 +9,22 @@
 
 :root {
     --fonte-destaque: 'Courgette', cursive;
-    --fonte-padrao: 'Kalam', cursive;
 }
 
 html, body {
     height: 100vh;
-    background-color: cyan;
+    background-color: whitesmoke;
 }
 /*CABEÇALHO*/
 header {
     background-color: #dda783;
     text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.478);
 }
 
 header > h1 {
     color: rgba(255, 255, 255, 0.933);
     font: normal 3.5em var(--fonte-destaque);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.478);
     padding-top: 50px;
     padding-bottom: 10px;
 }
@@ -35,38 +32,68 @@ header > h1 {
 header > p {
     color: #5f4955;
     font: normal 1em var(--fonte-destaque);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.478);
     padding-bottom: 50px;
 }
 
 header a {
     font-weight: bold;
     color: #5f4955;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.478);
     text-decoration: none;
 }
 
-header a:hover {
+header a:hover, footer a:hover{
     text-decoration: underline;
 }
 /*SECTIONS*/
 section {
  padding-top: 10vh;
- padding-left: 30px;
+ padding-left: 20px;
 }
 
 section p {
-    font: bold 2em var(--fonte-padrao);
-    padding-bottom: 10vh;
+    font: normal 2.2em var(--fonte-destaque);
+    padding-bottom: 2em;
+    line-height: 2em;
 }
 
 section.normal {
     background-color: white;
 }
-
+/*IMAGENS*/
 section.imagem {
-    display: inline-block;
     color: white;
-    background-color: rgba(0, 0, 0, 0.464);
-    padding-right: 30px;
+    background-color: rgb(51, 51, 51);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 10vh;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.526);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
+}
+/*RODAPÉ*/
+footer {
+    font: normal 1em Arial, Helvetica, Verdana, sans-serif;
+    text-align: center;
+    background-color: #dda783;
+    padding: 5px;
+    color: rgb(70, 63, 59);
+}
+
+footer a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.864);
 }

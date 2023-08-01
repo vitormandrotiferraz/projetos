@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    background: lightblue url('../imagens/fundo-madeira.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
+
+section#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    width: 300px;
+    height: 500px;
+    background: url('../imagens/telefone.png') no-repeat;
+}
+
+iframe#frame {
+    position: relative;
+    top: 64px;
+    left: 18px;
+    height: 376px;
+    width: 215px;
+}
+
+section#redes {
+    text-align: right;
+}
+
+section#redes img {
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}

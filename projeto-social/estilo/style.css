@@ -48,4 +48,12 @@ section#redes img {
     width: 50px;
     border-radius: 50%;
     margin: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.496);
+    box-sizing: border-box;
+}
+
+section#redes  img:hover {
+   border: 1px solid rgba(255, 255, 255, 0.718);
+   transform: translate(-2px, -1px);
+   transition: trasform 1s;
 }

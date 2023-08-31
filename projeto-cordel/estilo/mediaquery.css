@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/*TELAS ATÉ 1200PX*/
+@media screen and (min-width:628px) and (max-width:1200px) {
+    section p {
+        font: normal 5vw var(--fonte-destaque);
+    }
+}
+
+/*TELAS MAIOR QUE 1201PX*/
+@media screen and (min-width:1201px) {
+    body {
+        background-color: #dda783aa;
+    }
+
+    header {
+        width: 1200px;
+        margin: auto;
+    }
+
+    header > h1{
+        font: normal 5em var(--fonte-destaque);
+    }
+
+    section {
+        width: 1200px;
+        margin: auto;
+    }
+
+    section p {
+        font: normal 3.5em var(--fonte-destaque);
+    }  
+
+    footer {
+        width: 1200px;
+        margin: auto;
+    }
+}

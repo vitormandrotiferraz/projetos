@@ -6,6 +6,7 @@
     TV: 1200px;
 */
 
+/*TABLET*/
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
     body {
@@ -19,16 +20,22 @@
 
     section#login > div#img {
         float: right;
-        width: 30%;
+        width: 40%;
         height: 100%;
     }
 
     section#login > div#form {
         float: left;
-        width: 70%;
+        width: 60%;
     }
-}
 
+    form > input[type=submit], form > a.botao {
+        width: 90%;
+        margin: 5px auto;
+    }
+}   
+
+/*TELAS ACIMA DE 992PX*/
 @media screen and (min-width: 992px) {
     body {
         background-image: linear-gradient(to bottom, #71dfb9c5, #20FA70);

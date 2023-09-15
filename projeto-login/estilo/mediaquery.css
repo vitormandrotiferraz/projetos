@@ -15,18 +15,22 @@
 
     section#login {
         width: 85vw;
-        height: 450px;
+        height: 300px;
+    }
+
+    section#login p {
+        margin: 10px 0px;
     }
 
     section#login > div#img {
         float: right;
-        width: 40%;
+        width: 45%;
         height: 100%;
     }
 
     section#login > div#form {
         float: left;
-        width: 60%;
+        width: 55%;
     }
 
     form > input[type=submit], form > a.botao {
@@ -43,7 +47,11 @@
 
     section#login {
         width: 900px;
-        height: 450px;
+        height: 350px;
+    }
+
+    section#login p {
+        margin: 10px 0px;
     }
 
     section#login > div#img {

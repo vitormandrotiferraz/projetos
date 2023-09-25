@@ -20,23 +20,20 @@ body {
 }
 
 main {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     width: 100vw;
 }
 
 section#login {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    overflow: hidden;
-    
     background-color: white;
     width: 270px;
-    height: 480px;
+    height: 490px;
     border-radius: 10px;
     box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.337);
-    transform: translate(-50%, -50%);
+    overflow: hidden;
 }
 
 section#login > div#img {
@@ -61,9 +58,9 @@ div.campo {
     margin: 10px 0px;
 }
 
-div.campo  span {
+div.campo i {
     width: 40px;
-    font-size: 2em;
+    font-size: 2em;  
     transform: translate(5px, 5px);
 }
 
@@ -74,7 +71,6 @@ div.campo > input {
     border: 0px;
     border-radius: 8px;
     padding: 14px;
-    transform: translateY(-0.5px); 
 }
 
 div.campo > input:focus {
